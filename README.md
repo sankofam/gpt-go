@@ -9,7 +9,7 @@ Usage:
 2. Go to downloads location(or move file to desired path)
 3. Open path in command line
 4. run: 
-python gpt-go.py
+- python gpt-go.py
 5. Using the gui:
 - Input prompts and specific requests in the input window.
 - Input code in the context window. (not very strict, and input can be added to either window without issue usually)
