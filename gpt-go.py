@@ -165,7 +165,7 @@ def run_gpt(prompt, system, button_name):
 
     # Call the GPT model with the system and user messages
     completion = openai.ChatCompletion.create(
-      model="gpt-4",
+      model="gpt-4", #gpt-3.5-turbo
       messages=[{"role": "system", "content": system},
                 {"role": "user", "content": prompt}]
     )
