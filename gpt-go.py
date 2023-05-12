@@ -14,7 +14,7 @@ previous_response = ''
 system = 'You are a friendly AI'
 loaded_prompt = None
 
-#System dictionaries
+#System dictionaries (examples that I use , please experiment and try your own as well!)
 #Format  == "System_Name":"System function"
 text_systems = {
     "--":"You are a friendly AI",
