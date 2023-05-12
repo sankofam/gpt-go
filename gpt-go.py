@@ -8,6 +8,7 @@ print("Starting")
 
 global direct_input
 openai.api_key = #add your api key here
+#openai.api_key = "sk-1w4SbUMp1nGk31pYg4uCc1tUPk4rbS"
 direct_input=None
 previous_input = ''
 previous_response = ''
