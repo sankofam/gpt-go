@@ -21,4 +21,5 @@ Structure:
 Limitations:
 1. GUI becomes unresponsive after submitting a request, and only becomes responsive again after the response is received. Multiple requests can be sent simultaneously by opening multiple GUIs however. 
 2. Can be expensive due to the cost of GPT-4. This code structure can also use the GPT 3.5 turbo model, which is cheaper but less powerful and has a smaller token limit.
-3. Something else I can't think of right now...
+3. Speaking of token limits, GPT 4 has a token limit of 8000. This can limit its ability to summarize larger amounts of text sufficiently.
+4. Something else I can't think of right now...
