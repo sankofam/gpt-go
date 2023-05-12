@@ -17,3 +17,8 @@ Structure:
 10. Create widgets (Labels, Entries, Buttons, Text, and Scrollbar) for each frame and configure them for proper display and functionality.
 11. Define the main event loop which waits for user actions and updates the GUI accordingly.
 12. Close the tkinter window when the user finishes interacting with the chatbot.
+
+Limitations:
+1. GUI becomes unresponsive after submitting a request, and only becomes responsive again after the response is received. Multiple requests can be sent simultaneously by opening multiple GUIs however. 
+2. Can be expensive due to the cost of GPT-4. This code structure can also use the GPT 3.5 turbo model, which is cheaper but less powerful and has a smaller token limit.
+3. Something else I can't think of right now...
