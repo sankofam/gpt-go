@@ -1,5 +1,5 @@
 # gpt-go
-A gpt4/3.5 system selector + one-shot prompt gui
+A gpt4/3.5 system selector + one-shot prompt gui based "chatbot"
 
 The provided code is a Tkinter-based interface that interacts with OpenAI's GPT-4(or 3.5-turbo) model by sending text prompts and displaying the generated responses. 
 Users can choose from a list of predefined systems (code, text, or data systems), enter their text prompt and or code, and receive a generated output based on the selected system and input.
@@ -35,4 +35,5 @@ Limitations:
 1. GUI becomes unresponsive after submitting a request, and only becomes responsive again after the response is received. Multiple requests can be sent simultaneously by opening multiple GUIs however. 
 2. Can be expensive due to the cost of GPT-4. This code structure can also use the GPT 3.5 turbo model, which is cheaper but less powerful and has a smaller token limit(4,096).
 3. Speaking of token limits, GPT 4 has a token limit of 8000. This can limit its ability to summarize larger amounts of text sufficiently, as well as other large tasks.
-4. Something else I can't think of right now...
+4. Script has no memory, so it will not be able to use previous prompts as context. 
+5. Something else I can't think of right now...
