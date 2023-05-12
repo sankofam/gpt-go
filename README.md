@@ -4,6 +4,19 @@ A gpt4/3.5 system selector + one-shot prompt gui
 The provided code is a Tkinter-based interface that interacts with OpenAI's GPT-4(or 3.5-turbo) model by sending text prompts and displaying the generated responses. 
 Users can choose from a list of predefined systems (code, text, or data systems), enter their input and context, and receive a generated output based on the selected system and input.
 
+Usage:
+1. Download gpt-go.py
+2. Go to downloads location(or move file to desired path)
+3. Open path in command line
+4. run: 
+python gpt-go.py
+5. 
+- Input prompts and specific requests in the input window.
+- Input code in the context window. (not very strict, and input can be added to either window without issue usually)
+- Systems can be selected from the dropdown menu
+- Selecting a system will submit the request to gpt, so input the prompt and or code first. 
+- GUI will freeze while waiting for a response
+
 Code Structure:
 1. Import necessary libraries: tkinter, openai, datetime, and ttkthemes.
 2. Set the OpenAI API key.
