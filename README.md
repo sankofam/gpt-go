@@ -2,7 +2,7 @@
 A gpt4/3.5 system selector + one-shot prompt gui
 
 The provided code is a Tkinter-based interface that interacts with OpenAI's GPT-4(or 3.5-turbo) model by sending text prompts and displaying the generated responses. 
-Users can choose from a list of predefined systems (code, text, or data systems), enter their input and context, and receive a generated output based on the selected system and input.
+Users can choose from a list of predefined systems (code, text, or data systems), enter their text prompt and or code, and receive a generated output based on the selected system and input.
 
 Usage:
 1. Download gpt-go.py
