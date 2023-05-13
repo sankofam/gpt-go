@@ -257,7 +257,7 @@ def get_direct_input():
 
 root = tk.Tk()
 
-root.title("OpenAI Chatbot")
+root.title("GPT Go")
 # Setting up style
 style = ttk.Style()
 #style.theme_use('xpnative')
